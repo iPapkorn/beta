@@ -1,0 +1,22 @@
+.header {
+    width: 100%;
+    cursor: pointer;
+    position: fixed;
+    margin: auto;
+    max-width: 600px;
+    padding: 5px;
+    display: flex;
+    background: rgb(187, 187, 187);
+    z-index: 100;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (max-width:1000px) {
+    .header {
+        padding-top: 1px;
+        font-size: 6.4vw;
+    }
+}

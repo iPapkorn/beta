@@ -1,7 +1,11 @@
 import React from "react";
-import "./header.css";
-const header = () => {
-	return <span className="header"> ipapkorn </span>;
+import "./Header.css";
+const Header = () => {
+	return (
+		<div className="header">
+			<h1>Hello header</h1>
+		</div>
+	);
 };
 
-export default header;
+export default Header;
